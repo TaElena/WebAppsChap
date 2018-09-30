@@ -1,0 +1,32 @@
+body {
+	background: white;
+	width: 855px;
+	margin: auto;
+}
+header {
+	height: 50px;
+	background: yellow;
+}
+main {
+	height: 400px;
+}
+footer {
+	background: yellow;
+	height: 100px;
+}
+h1 {
+	width: 200px;
+	float: left;
+}
+.header-text p {
+	float: right;
+	font-family: cursive;
+}
+.comments p:nth-child(even){
+background: lavender;
+border-radius: 5px:;
+}
+.comments p:nth-child(odd) {
+background: gainsboro;
+border-radius: 5px;
+}
